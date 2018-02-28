@@ -6,216 +6,214 @@
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 var baseNodes = [
-{id:"ebceb5",group:0,label:"ebceb5",level:1},
-{id:"187518",group:0,label:"187518",level:1},
-{id:"c0a308",group:0,label:"c0a308",level:1},
-{id:"006616",group:0,label:"006616",level:1},
-{id:"00cb38",group:0,label:"00cb38",level:1},
-{id:"ea5615",group:0,label:"ea5615",level:1},
-{id:"0032c1",group:0,label:"0032c1",level:1},
-{id:"6b04c2",group:0,label:"6b04c2",level:1},
-{id:"6a94d1",group:0,label:"6a94d1",level:1},
-{id:"239a95",group:0,label:"239a95",level:1},
-{id:"c22d5b",group:0,label:"c22d5b",level:1},
-{id:"33bcbd",group:0,label:"33bcbd",level:1},
-{id:"f4b51b",group:0,label:"f4b51b",level:1},
-{id:"007a36",group:0,label:"007a36",level:1},
-{id:"571cb8",group:0,label:"571cb8",level:1},
-{id:"003c6d",group:0,label:"003c6d",level:1},
-{id:"8c19ee",group:0,label:"8c19ee",level:1},
-{id:"b325eb",group:0,label:"b325eb",level:1},
-{id:"478f25",group:0,label:"478f25",level:1},
-{id:"abcb11",group:0,label:"abcb11",level:1},
-{id:"26a7f4",group:0,label:"26a7f4",level:1},
-{id:"2a2949",group:0,label:"2a2949",level:1},
-{id:"005f4a",group:0,label:"005f4a",level:1},
-{id:"a8458b",group:0,label:"a8458b",level:1},
-{id:"d8bc3a",group:0,label:"d8bc3a",level:1},
-{id:"3ab65a",group:0,label:"3ab65a",level:1},
-{id:"d046b3",group:0,label:"d046b3",level:1},
-{id:"0ac913",group:0,label:"0ac913",level:1},
-{id:"6546fa",group:0,label:"6546fa",level:1},
-{id:"b96841",group:0,label:"b96841",level:1},
-{id:"22f365",group:0,label:"22f365",level:1},
-{id:"6f4a3c",group:0,label:"6f4a3c",level:1},
-{id:"1d37d2",group:0,label:"1d37d2",level:1},
-{id:"txfrom",group:0,label:"txfrom",level:1},
-{id:"388c3f",group:0,label:"388c3f",level:1},
-{id:"d31668",group:0,label:"d31668",level:1},
-{id:"502ee1",group:0,label:"502ee1",level:1},
-{id:"bf1508",group:0,label:"bf1508",level:1},
-{id:"8f077c",group:0,label:"8f077c",level:1},
-{id:"dc0568",group:0,label:"dc0568",level:1},
-{id:"3344a2",group:0,label:"3344a2",level:1},
-{id:"fd82a5",group:0,label:"fd82a5",level:1},
-{id:"84b038",group:0,label:"84b038",level:1},
-{id:"f3d5fd",group:0,label:"f3d5fd",level:1},
-{id:"fd2cf1",group:0,label:"fd2cf1",level:1},
-{id:"67f11b",group:0,label:"67f11b",level:1},
-{id:"8d12a1",group:0,label:"8d12a1",level:1},
-{id:"007308",group:0,label:"007308",level:1},
-{id:"b88f38",group:0,label:"b88f38",level:1},
-{id:"14af12",group:0,label:"14af12",level:1},
-{id:"af2506",group:0,label:"af2506",level:1},
-{id:"70216d",group:0,label:"70216d",level:1},
-{id:"001582",group:0,label:"001582",level:1},
-{id:"1829d7",group:0,label:"1829d7",level:1},
-{id:"1401a9",group:0,label:"1401a9",level:1},
-{id:"87d3da",group:0,label:"87d3da",level:1},
-{id:"007d3b",group:0,label:"007d3b",level:1},
-{id:"a3b2d1",group:0,label:"a3b2d1",level:1},
-{id:"00dba8",group:0,label:"00dba8",level:1},
-{id:"8da0d8",group:0,label:"8da0d8",level:1},
-{id:"606af0",group:0,label:"606af0",level:1},
-{id:"7cd085",group:0,label:"7cd085",level:1},
-{id:"206376",group:0,label:"206376",level:1},
-{id:"c6ee6c",group:0,label:"c6ee6c",level:1},
-{id:"f97100",group:0,label:"f97100",level:1},
-{id:"txaddr",group:0,label:"txaddr",level:1},
 {id:"99fe39",group:0,label:"99fe39",level:1},
-{id:"d9321d",group:0,label:"d9321d",level:1},
-{id:"924c25",group:0,label:"924c25",level:1},
-{id:"8448fa",group:0,label:"8448fa",level:1},
-{id:"20abf6",group:0,label:"20abf6",level:1},
-{id:"2d9e8c",group:0,label:"2d9e8c",level:1},
 {id:"008d98",group:0,label:"008d98",level:1},
-{id:"7f3303",group:0,label:"7f3303",level:1},
-{id:"00e28d",group:0,label:"00e28d",level:1},
-{id:"efbea7",group:0,label:"efbea7",level:1},
-{id:"739200",group:0,label:"739200",level:1},
-{id:"168cf0",group:0,label:"168cf0",level:1},
-{id:"ed5020",group:0,label:"ed5020",level:1},
-{id:"09f86e",group:0,label:"09f86e",level:1},
-{id:"bebe34",group:0,label:"bebe34",level:1},
-{id:"45e1e6",group:0,label:"45e1e6",level:1},
-{id:"083578",group:0,label:"083578",level:1},
-{id:"1c4f45",group:0,label:"1c4f45",level:1},
-{id:"6499cc",group:0,label:"6499cc",level:1},
-{id:"76fb08",group:0,label:"76fb08",level:1},
-{id:"60c028",group:0,label:"60c028",level:1},
-{id:"ed3319",group:0,label:"ed3319",level:1},
-{id:"6a40f7",group:0,label:"6a40f7",level:1},
-{id:"d4aee2",group:0,label:"d4aee2",level:1},
-{id:"f2eeab",group:0,label:"f2eeab",level:1},
-{id:"4ad8a3",group:0,label:"4ad8a3",level:1},
-{id:"192fec",group:0,label:"192fec",level:1},
-{id:"4be06d",group:0,label:"4be06d",level:1},
-{id:"21b115",group:0,label:"21b115",level:1},
-{id:"db63d4",group:0,label:"db63d4",level:1},
-{id:"afee8c",group:0,label:"afee8c",level:1},
-{id:"1a3125",group:0,label:"1a3125",level:1},
-{id:"176825",group:0,label:"176825",level:1},
 {id:"088715",group:0,label:"088715",level:1},
+{id:"txaddr",group:0,label:"txaddr",level:1},
+{id:"d31668",group:0,label:"d31668",level:1},
+{id:"001582",group:0,label:"001582",level:1},
+{id:"dc0568",group:0,label:"dc0568",level:1},
+{id:"abcb11",group:0,label:"abcb11",level:1},
+{id:"4be06d",group:0,label:"4be06d",level:1},
+{id:"502ee1",group:0,label:"502ee1",level:1},
+{id:"388c3f",group:0,label:"388c3f",level:1},
+{id:"d4aee2",group:0,label:"d4aee2",level:1},
+{id:"007d3b",group:0,label:"007d3b",level:1},
+{id:"0032c1",group:0,label:"0032c1",level:1},
+{id:"3ab65a",group:0,label:"3ab65a",level:1},
+{id:"6f4a3c",group:0,label:"6f4a3c",level:1},
+{id:"f97100",group:0,label:"f97100",level:1},
+{id:"09f86e",group:0,label:"09f86e",level:1},
+{id:"0ac913",group:0,label:"0ac913",level:1},
+{id:"192fec",group:0,label:"192fec",level:1},
+{id:"af2506",group:0,label:"af2506",level:1},
+{id:"6546fa",group:0,label:"6546fa",level:1},
+{id:"007a36",group:0,label:"007a36",level:1},
+{id:"8c19ee",group:0,label:"8c19ee",level:1},
+{id:"007308",group:0,label:"007308",level:1},
+{id:"7cd085",group:0,label:"7cd085",level:1},
+{id:"26a7f4",group:0,label:"26a7f4",level:1},
+{id:"a8458b",group:0,label:"a8458b",level:1},
+{id:"20abf6",group:0,label:"20abf6",level:1},
+{id:"1a3125",group:0,label:"1a3125",level:1},
+{id:"f2eeab",group:0,label:"f2eeab",level:1},
+{id:"006616",group:0,label:"006616",level:1},
+{id:"571cb8",group:0,label:"571cb8",level:1},
+{id:"ebceb5",group:0,label:"ebceb5",level:1},
+{id:"005f4a",group:0,label:"005f4a",level:1},
+{id:"6a94d1",group:0,label:"6a94d1",level:1},
+{id:"003c6d",group:0,label:"003c6d",level:1},
+{id:"d046b3",group:0,label:"d046b3",level:1},
+{id:"f4b51b",group:0,label:"f4b51b",level:1},
+{id:"2a2949",group:0,label:"2a2949",level:1},
+{id:"4ad8a3",group:0,label:"4ad8a3",level:1},
+{id:"1c4f45",group:0,label:"1c4f45",level:1},
+{id:"f3d5fd",group:0,label:"f3d5fd",level:1},
+{id:"6a40f7",group:0,label:"6a40f7",level:1},
+{id:"afee8c",group:0,label:"afee8c",level:1},
+{id:"2ff209",group:0,label:"2ff209",level:1},
 {id:"00febf",group:0,label:"00febf",level:1},
+{id:"6b04c2",group:0,label:"6b04c2",level:1},
+{id:"924c25",group:0,label:"924c25",level:1},
+{id:"87d3da",group:0,label:"87d3da",level:1},
+{id:"b96841",group:0,label:"b96841",level:1},
+{id:"c6ee6c",group:0,label:"c6ee6c",level:1},
 {id:"569418",group:0,label:"569418",level:1},
-{id:"2ff209",group:0,label:"2ff209",level:1}
+{id:"8d12a1",group:0,label:"8d12a1",level:1},
+{id:"187518",group:0,label:"187518",level:1},
+{id:"67f11b",group:0,label:"67f11b",level:1},
+{id:"8da0d8",group:0,label:"8da0d8",level:1},
+{id:"3344a2",group:0,label:"3344a2",level:1},
+{id:"c0a308",group:0,label:"c0a308",level:1},
+{id:"d8bc3a",group:0,label:"d8bc3a",level:1},
+{id:"2d9e8c",group:0,label:"2d9e8c",level:1},
+{id:"606af0",group:0,label:"606af0",level:1},
+{id:"ed5020",group:0,label:"ed5020",level:1},
+{id:"14af12",group:0,label:"14af12",level:1},
+{id:"ed3319",group:0,label:"ed3319",level:1},
+{id:"00e28d",group:0,label:"00e28d",level:1},
+{id:"33bcbd",group:0,label:"33bcbd",level:1},
+{id:"84b038",group:0,label:"84b038",level:1},
+{id:"c22d5b",group:0,label:"c22d5b",level:1},
+{id:"60c028",group:0,label:"60c028",level:1},
+{id:"1d37d2",group:0,label:"1d37d2",level:1},
+{id:"b325eb",group:0,label:"b325eb",level:1},
+{id:"70216d",group:0,label:"70216d",level:1},
+{id:"00cb38",group:0,label:"00cb38",level:1},
+{id:"478f25",group:0,label:"478f25",level:1},
+{id:"txfrom",group:0,label:"txfrom",level:1},
+{id:"206376",group:0,label:"206376",level:1},
+{id:"176825",group:0,label:"176825",level:1},
+{id:"168cf0",group:0,label:"168cf0",level:1},
+{id:"739200",group:0,label:"739200",level:1},
+{id:"7f3303",group:0,label:"7f3303",level:1},
+{id:"1829d7",group:0,label:"1829d7",level:1},
+{id:"45e1e6",group:0,label:"45e1e6",level:1},
+{id:"b88f38",group:0,label:"b88f38",level:1},
+{id:"bebe34",group:0,label:"bebe34",level:1},
+{id:"76fb08",group:0,label:"76fb08",level:1},
+{id:"fd82a5",group:0,label:"fd82a5",level:1},
+{id:"22f365",group:0,label:"22f365",level:1},
+{id:"8f077c",group:0,label:"8f077c",level:1},
+{id:"239a95",group:0,label:"239a95",level:1},
+{id:"1401a9",group:0,label:"1401a9",level:1},
+{id:"d9321d",group:0,label:"d9321d",level:1},
+{id:"fd2cf1",group:0,label:"fd2cf1",level:1},
+{id:"8448fa",group:0,label:"8448fa",level:1},
+{id:"db63d4",group:0,label:"db63d4",level:1},
+{id:"efbea7",group:0,label:"efbea7",level:1},
+{id:"21b115",group:0,label:"21b115",level:1},
+{id:"00dba8",group:0,label:"00dba8",level:1},
+{id:"6499cc",group:0,label:"6499cc",level:1},
+{id:"bf1508",group:0,label:"bf1508",level:1},
+{id:"a3b2d1",group:0,label:"a3b2d1",level:1},
+{id:"083578",group:0,label:"083578",level:1},
+{id:"ea5615",group:0,label:"ea5615",level:1}
 ]
 var baseLinks = [
-{target:"txaddr",source,"txfrom",strength:"0"},
-{target:"b88f38",source,"a3b2d1",strength:"12025"},
-{target:"569418",source,"a3b2d1",strength:"50000"},
-{target:"abcb11",source,"a3b2d1",strength:"6562.5"},
-{target:"7cd085",source,"a3b2d1",strength:"15000"},
-{target:"1829d7",source,"a3b2d1",strength:"1600"},
-{target:"afee8c",source,"a3b2d1",strength:"14812.5"},
-{target:"00febf",source,"7cd085",strength:"0.1"},
-{target:"fd82a5",source,"7cd085",strength:"0.1"},
-{target:"007308",source,"7cd085",strength:"0.1"},
-{target:"8c19ee",source,"7cd085",strength:"0.1"},
-{target:"33bcbd",source,"7cd085",strength:"0.05"},
-{target:"c22d5b",source,"7cd085",strength:"0.520833"},
-{target:"739200",source,"7cd085",strength:"0.2"},
-{target:"db63d4",source,"1829d7",strength:"1500"},
-{target:"db63d4",source,"b88f38",strength:"12025"},
-{target:"afee8c",source,"1829d7",strength:"500"},
-{target:"8da0d8",source,"478f25",strength:"100000"},
-{target:"8da0d8",source,"b96841",strength:"100000"},
-{target:"187518",source,"1829d7",strength:"100"},
-{target:"00febf",source,"afee8c",strength:"6.5625"},
-{target:"1a3125",source,"afee8c",strength:"3.125"},
-{target:"f97100",source,"afee8c",strength:"20.833333333333"},
-{target:"571cb8",source,"afee8c",strength:"4.270833333333"},
-{target:"8da0d8",source,"569418",strength:"1.15792089237316e+55"},
-{target:"606af0",source,"afee8c",strength:"15261.0416663333"},
-{target:"8da0d8",source,"99fe39",strength:"100000"},
-{target:"0ac913",source,"7cd085",strength:"62.5"},
-{target:"8da0d8",source,"00e28d",strength:"100000"},
-{target:"f4b51b",source,"7cd085",strength:"41.666667"},
-{target:"206376",source,"7cd085",strength:"14894.6625"},
-{target:"088715",source,"abcb11",strength:"2000"},
-{target:"3344a2",source,"abcb11",strength:"178.571429"},
-{target:"8f077c",source,"abcb11",strength:"297.619048"},
-{target:"c0a308",source,"abcb11",strength:"297.619048"},
-{target:"8da0d8",source,"007d3b",strength:"100000"},
-{target:"8da0d8",source,"2ff209",strength:"100000"},
-{target:"8da0d8",source,"239a95",strength:"100000"},
-{target:"001582",source,"abcb11",strength:"59.52381"},
-{target:"8da0d8",source,"4ad8a3",strength:"100000"},
-{target:"4be06d",source,"abcb11",strength:"59.52381"},
-{target:"8da0d8",source,"6a94d1",strength:"100000"},
-{target:"7f3303",source,"569418",strength:"50000"},
-{target:"8da0d8",source,"7f3303",strength:"100000"},
-{target:"8da0d8",source,"6499cc",strength:"100000"},
-{target:"d046b3",source,"00febf",strength:"2"},
-{target:"8d12a1",source,"d046b3",strength:"2"},
-{target:"8d12a1",source,"d9321d",strength:"2"},
-{target:"8d12a1",source,"d046b3",strength:"2"},
-{target:"8d12a1",source,"ed5020",strength:"1"},
-{target:"6b04c2",source,"6f4a3c",strength:"0.3"},
-{target:"20abf6",source,"efbea7",strength:"3.94415038875082"},
-{target:"8d12a1",source,"007a36",strength:"3"},
-{target:"8d12a1",source,"ed3319",strength:"0.177"},
-{target:"8d12a1",source,"2d9e8c",strength:"3.94415038875082"},
-{target:"8d12a1",source,"6a40f7",strength:"0.9441"},
-{target:"67f11b",source,"a8458b",strength:"2.42181875000051"},
-{target:"8d12a1",source,"d31668",strength:"3.94415038875082"},
-{target:"8d12a1",source,"083578",strength:"3.9441"},
-{target:"8d12a1",source,"ed5020",strength:"1"},
-{target:"8d12a1",source,"00dba8",strength:"1"},
-{target:"8d12a1",source,"083578",strength:"3.9441"},
-{target:"8d12a1",source,"6f4a3c",strength:"0.6451"},
-{target:"0032c1",source,"006616",strength:"3.94096492447532"},
-{target:"8d12a1",source,"ed5020",strength:"1"},
-{target:"005f4a",source,"008d98",strength:"3.94415038875082"},
-{target:"8d12a1",source,"d9321d",strength:"1.94415038875082"},
-{target:"8d12a1",source,"168cf0",strength:"3.8365153"},
-{target:"8d12a1",source,"af2506",strength:"3.94415038875082"},
-{target:"2a2949",source,"192fec",strength:"3.94415038875082"},
-{target:"388c3f",source,"1c4f45",strength:"1"},
-{target:"8d12a1",source,"00dba8",strength:"2.94415038875082"},
-{target:"8d12a1",source,"09f86e",strength:"0.0001"},
-{target:"8d12a1",source,"f3d5fd",strength:"0.5"},
-{target:"bf1508",source,"1401a9",strength:"3.94415038875082"},
-{target:"8d12a1",source,"14af12",strength:"1.2995"},
-{target:"ea5615",source,"6546fa",strength:"3.94415038875082"},
-{target:"60c028",source,"502ee1",strength:"3.24878125000068"},
-{target:"76fb08",source,"00cb38",strength:"0.5907"},
-{target:"d8bc3a",source,"dc0568",strength:"3.94415038875082"},
-{target:"21b115",source,"3ab65a",strength:"3.94415038875082"},
-{target:"f2eeab",source,"c6ee6c",strength:"0.597185062500125"},
-{target:"8d12a1",source,"26a7f4",strength:"0.590163"},
-{target:"8d12a1",source,"87d3da",strength:"0.5"},
-{target:"d8bc3a",source,"dc0568",strength:"3.94415038875082"},
-{target:"d8bc3a",source,"dc0568",strength:"3.94415038875082"},
-{target:"8d12a1",source,"b325eb",strength:"3"},
-{target:"8d12a1",source,"84b038",strength:"1"},
-{target:"d8bc3a",source,"dc0568",strength:"3.94415038875082"},
-{target:"005f4a",source,"008d98",strength:"3.94415038875082"},
-{target:"8d12a1",source,"b325eb",strength:"1"},
-{target:"8d12a1",source,"176825",strength:"1.5"},
-{target:"8d12a1",source,"45e1e6",strength:"0.3112"},
-{target:"8d12a1",source,"388c3f",strength:"1"},
-{target:"8d12a1",source,"bebe34",strength:"2"},
-{target:"1d37d2",source,"8448fa",strength:"0.0001"},
-{target:"fd2cf1",source,"d4aee2",strength:"0.590687500000123"},
-{target:"ebceb5",source,"924c25",strength:"1.94415038875082"},
-{target:"8d12a1",source,"22f365",strength:"0.59138"},
-{target:"70216d",source,"003c6d",strength:"3.94414448187582"}
+{target:"txaddr",source:"txfrom",strength:"0"},
+{target:"b88f38",source:"a3b2d1",strength:"12025"},
+{target:"569418",source:"a3b2d1",strength:"50000"},
+{target:"abcb11",source:"a3b2d1",strength:"6562.5"},
+{target:"7cd085",source:"a3b2d1",strength:"15000"},
+{target:"1829d7",source:"a3b2d1",strength:"1600"},
+{target:"afee8c",source:"a3b2d1",strength:"14812.5"},
+{target:"00febf",source:"7cd085",strength:"0.1"},
+{target:"fd82a5",source:"7cd085",strength:"0.1"},
+{target:"007308",source:"7cd085",strength:"0.1"},
+{target:"8c19ee",source:"7cd085",strength:"0.1"},
+{target:"33bcbd",source:"7cd085",strength:"0.05"},
+{target:"c22d5b",source:"7cd085",strength:"0.520833"},
+{target:"739200",source:"7cd085",strength:"0.2"},
+{target:"db63d4",source:"1829d7",strength:"1500"},
+{target:"db63d4",source:"b88f38",strength:"12025"},
+{target:"afee8c",source:"1829d7",strength:"500"},
+{target:"8da0d8",source:"478f25",strength:"100000"},
+{target:"8da0d8",source:"b96841",strength:"100000"},
+{target:"187518",source:"1829d7",strength:"100"},
+{target:"00febf",source:"afee8c",strength:"6.5625"},
+{target:"1a3125",source:"afee8c",strength:"3.125"},
+{target:"f97100",source:"afee8c",strength:"20.833333333333"},
+{target:"571cb8",source:"afee8c",strength:"4.270833333333"},
+{target:"8da0d8",source:"569418",strength:"1.15792089237316e+55"},
+{target:"606af0",source:"afee8c",strength:"15261.0416663333"},
+{target:"8da0d8",source:"99fe39",strength:"100000"},
+{target:"0ac913",source:"7cd085",strength:"62.5"},
+{target:"8da0d8",source:"00e28d",strength:"100000"},
+{target:"f4b51b",source:"7cd085",strength:"41.666667"},
+{target:"206376",source:"7cd085",strength:"14894.6625"},
+{target:"088715",source:"abcb11",strength:"2000"},
+{target:"3344a2",source:"abcb11",strength:"178.571429"},
+{target:"8f077c",source:"abcb11",strength:"297.619048"},
+{target:"c0a308",source:"abcb11",strength:"297.619048"},
+{target:"8da0d8",source:"007d3b",strength:"100000"},
+{target:"8da0d8",source:"2ff209",strength:"100000"},
+{target:"8da0d8",source:"239a95",strength:"100000"},
+{target:"001582",source:"abcb11",strength:"59.52381"},
+{target:"8da0d8",source:"4ad8a3",strength:"100000"},
+{target:"4be06d",source:"abcb11",strength:"59.52381"},
+{target:"8da0d8",source:"6a94d1",strength:"100000"},
+{target:"7f3303",source:"569418",strength:"50000"},
+{target:"8da0d8",source:"7f3303",strength:"100000"},
+{target:"8da0d8",source:"6499cc",strength:"100000"},
+{target:"d046b3",source:"00febf",strength:"2"},
+{target:"8d12a1",source:"d046b3",strength:"2"},
+{target:"8d12a1",source:"d9321d",strength:"2"},
+{target:"8d12a1",source:"d046b3",strength:"2"},
+{target:"8d12a1",source:"ed5020",strength:"1"},
+{target:"6b04c2",source:"6f4a3c",strength:"0.3"},
+{target:"20abf6",source:"efbea7",strength:"3.94415038875082"},
+{target:"8d12a1",source:"007a36",strength:"3"},
+{target:"8d12a1",source:"ed3319",strength:"0.177"},
+{target:"8d12a1",source:"2d9e8c",strength:"3.94415038875082"},
+{target:"8d12a1",source:"6a40f7",strength:"0.9441"},
+{target:"67f11b",source:"a8458b",strength:"2.42181875000051"},
+{target:"8d12a1",source:"d31668",strength:"3.94415038875082"},
+{target:"8d12a1",source:"083578",strength:"3.9441"},
+{target:"8d12a1",source:"ed5020",strength:"1"},
+{target:"8d12a1",source:"00dba8",strength:"1"},
+{target:"8d12a1",source:"083578",strength:"3.9441"},
+{target:"8d12a1",source:"6f4a3c",strength:"0.6451"},
+{target:"0032c1",source:"006616",strength:"3.94096492447532"},
+{target:"8d12a1",source:"ed5020",strength:"1"},
+{target:"005f4a",source:"008d98",strength:"3.94415038875082"},
+{target:"8d12a1",source:"d9321d",strength:"1.94415038875082"},
+{target:"8d12a1",source:"168cf0",strength:"3.8365153"},
+{target:"8d12a1",source:"af2506",strength:"3.94415038875082"},
+{target:"2a2949",source:"192fec",strength:"3.94415038875082"},
+{target:"388c3f",source:"1c4f45",strength:"1"},
+{target:"8d12a1",source:"00dba8",strength:"2.94415038875082"},
+{target:"8d12a1",source:"09f86e",strength:"0.0001"},
+{target:"8d12a1",source:"f3d5fd",strength:"0.5"},
+{target:"bf1508",source:"1401a9",strength:"3.94415038875082"},
+{target:"8d12a1",source:"14af12",strength:"1.2995"},
+{target:"ea5615",source:"6546fa",strength:"3.94415038875082"},
+{target:"60c028",source:"502ee1",strength:"3.24878125000068"},
+{target:"76fb08",source:"00cb38",strength:"0.5907"},
+{target:"d8bc3a",source:"dc0568",strength:"3.94415038875082"},
+{target:"21b115",source:"3ab65a",strength:"3.94415038875082"},
+{target:"f2eeab",source:"c6ee6c",strength:"0.597185062500125"},
+{target:"8d12a1",source:"26a7f4",strength:"0.590163"},
+{target:"8d12a1",source:"87d3da",strength:"0.5"},
+{target:"d8bc3a",source:"dc0568",strength:"3.94415038875082"},
+{target:"d8bc3a",source:"dc0568",strength:"3.94415038875082"},
+{target:"8d12a1",source:"b325eb",strength:"3"},
+{target:"8d12a1",source:"84b038",strength:"1"},
+{target:"d8bc3a",source:"dc0568",strength:"3.94415038875082"},
+{target:"005f4a",source:"008d98",strength:"3.94415038875082"},
+{target:"8d12a1",source:"b325eb",strength:"1"},
+{target:"8d12a1",source:"176825",strength:"1.5"},
+{target:"8d12a1",source:"45e1e6",strength:"0.3112"},
+{target:"8d12a1",source:"388c3f",strength:"1"},
+{target:"8d12a1",source:"bebe34",strength:"2"},
+{target:"1d37d2",source:"8448fa",strength:"0.0001"},
+{target:"fd2cf1",source:"d4aee2",strength:"0.590687500000123"},
+{target:"ebceb5",source:"924c25",strength:"1.94415038875082"},
+{target:"8d12a1",source:"22f365",strength:"0.59138"},
+{target:"70216d",source:"003c6d",strength:"3.94414448187582"}
 ]
-
 var nodes = [...baseNodes]
 var links = [...baseLinks]
-
 function getNeighbors(node) {
   return baseLinks.reduce(function (neighbors, link) {
       if (link.target.id === node.id) {
@@ -228,60 +226,45 @@ function getNeighbors(node) {
     [node.id]
   )
 }
-
 function isNeighborLink(node, link) {
   return link.target.id === node.id || link.source.id === node.id
 }
-
-
 function getNodeColor(node, neighbors) {
   if (Array.isArray(neighbors) && neighbors.indexOf(node.id) > -1) {
     return node.level === 1 ? 'blue' : 'green'
   }
-
   return node.level === 1 ? 'red' : 'gray'
 }
-
-
 function getLinkColor(node, link) {
   return isNeighborLink(node, link) ? 'green' : '#E5E5E5'
 }
-
 function getTextColor(node, neighbors) {
   return Array.isArray(neighbors) && neighbors.indexOf(node.id) > -1 ? 'green' : 'black'
 }
-
 var width = window.innerWidth
 var height = window.innerHeight
-
 var svg = d3.select('svg')
 svg.attr('width', width).attr('height', height)
-
 var linkElements,
   nodeElements,
   textElements
-
 // we use svg groups to logically group the elements together
 var linkGroup = svg.append('g').attr('class', 'links')
 var nodeGroup = svg.append('g').attr('class', 'nodes')
 var textGroup = svg.append('g').attr('class', 'texts')
-
 // we use this reference to select/deselect
 // after clicking the same element twice
 var selectedId
-
 // simulation setup with all forces
 var linkForce = d3
   .forceLink()
   .id(function (link) { return link.id })
   .strength(function (link) { return link.strength })
-
 var simulation = d3
   .forceSimulation()
   .force('link', linkForce)
   .force('charge', d3.forceManyBody().strength(-120))
   .force('center', d3.forceCenter(width / 2, height / 2))
-
 var dragDrop = d3.drag().on('start', function (node) {
   node.fx = node.x
   node.fy = node.y
@@ -296,7 +279,6 @@ var dragDrop = d3.drag().on('start', function (node) {
   node.fx = null
   node.fy = null
 })
-
 // select node is called on every click
 // we either update the data according to the selection
 // or reset the data if the same node is clicked twice
@@ -310,71 +292,55 @@ function selectNode(selectedNode) {
     updateData(selectedNode)
     updateSimulation()
   }
-
   var neighbors = getNeighbors(selectedNode)
-
   // we modify the styles to highlight selected nodes
   nodeElements.attr('fill', function (node) { return getNodeColor(node, neighbors) })
   textElements.attr('fill', function (node) { return getTextColor(node, neighbors) })
   linkElements.attr('stroke', function (link) { return getLinkColor(selectedNode, link) })
 }
-
 // this helper simple adds all nodes and links
 // that are missing, to recreate the initial state
 function resetData() {
   var nodeIds = nodes.map(function (node) { return node.id })
-
   baseNodes.forEach(function (node) {
     if (nodeIds.indexOf(node.id) === -1) {
       nodes.push(node)
     }
   })
-
   links = baseLinks
 }
-
 // diffing and mutating the data
 function updateData(selectedNode) {
   var neighbors = getNeighbors(selectedNode)
   var newNodes = baseNodes.filter(function (node) {
     return neighbors.indexOf(node.id) > -1 || node.level === 1
   })
-
   var diff = {
     removed: nodes.filter(function (node) { return newNodes.indexOf(node) === -1 }),
     added: newNodes.filter(function (node) { return nodes.indexOf(node) === -1 })
   }
-
   diff.removed.forEach(function (node) { nodes.splice(nodes.indexOf(node), 1) })
   diff.added.forEach(function (node) { nodes.push(node) })
-
   links = baseLinks.filter(function (link) {
     return link.target.id === selectedNode.id || link.source.id === selectedNode.id
   })
 }
-
 function updateGraph() {
   // links
   linkElements = linkGroup.selectAll('line')
     .data(links, function (link) {
       return link.target.id + link.source.id
     })
-
   linkElements.exit().remove()
-
   var linkEnter = linkElements
     .enter().append('line')
     .attr('stroke-width', 1)
     .attr('stroke', 'rgba(50, 50, 50, 0.2)')
-
   linkElements = linkEnter.merge(linkElements)
-
   // nodes
   nodeElements = nodeGroup.selectAll('circle')
     .data(nodes, function (node) { return node.id })
-
   nodeElements.exit().remove()
-
   var nodeEnter = nodeElements
     .enter()
     .append('circle')
@@ -384,15 +350,11 @@ function updateGraph() {
     // we link the selectNode method here
     // to update the graph on every click
     .on('click', selectNode)
-
   nodeElements = nodeEnter.merge(nodeElements)
-
   // texts
   textElements = textGroup.selectAll('text')
     .data(nodes, function (node) { return node.id })
-
   textElements.exit().remove()
-
   var textEnter = textElements
     .enter()
     .append('text')
@@ -400,13 +362,10 @@ function updateGraph() {
     .attr('font-size', 15)
     .attr('dx', 15)
     .attr('dy', 4)
-
   textElements = textEnter.merge(textElements)
 }
-
 function updateSimulation() {
   updateGraph()
-
   simulation.nodes(nodes).on('tick', () => {
     nodeElements
       .attr('cx', function (node) { return node.x })
@@ -420,13 +379,10 @@ function updateSimulation() {
       .attr('x2', function (link) { return link.target.x })
       .attr('y2', function (link) { return link.target.y })
   })
-
   simulation.force('link').links(links)
   simulation.alphaTarget(0.7).restart()
 }
-
 // last but not least, we call updateSimulation
 // to trigger the initial render
 updateSimulation()
-
 </script>
